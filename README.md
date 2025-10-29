@@ -18,3 +18,19 @@ You are welcome to modify the provided code for your projects and to use other p
 * TH1hist2Numpy.ipynb : an example for converting a ROOT histogram to numpy arrays
 
 Note that from ROOT you can type ```new TBrowser()``` or in Python r.TBrowser() to get a graphical browser that allows you to look at what's contained in the TFiles.
+
+
+Exercise 1.
+**How does the 1 sigma width of this distribution compare to the typical size of the uncertainty reported for this fit parameter?**
+**Does this seem reasonable? Discuss.  (eg. add a comment to you Readme.md)**
+The sigma width for the chi square., 0.2125, and the error mean is 0.3257. I think it's pretty reasonable, considering how small the variation in chi2 is.
+
+Exercise 2.
+**How do your results compare to the expected values in each case? How do the distributions of the parameter values from the fits compare to the estimated uncertainty on the fit parameters?**
+
+The NLL models decay much faster and go to zero unlike the chi2 away from the fit parameters. Chi2 has many more non-zero bins further way from the center
+answer for the fit.
+
+Exercise 3.
+**Estimate the "p-value" of your original fit an give this value in your Readme.md.**
+The p-value I got 0.458. 

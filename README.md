@@ -34,3 +34,6 @@ answer for the fit.
 Exercise 3.
 **Estimate the "p-value" of your original fit an give this value in your Readme.md.**
 The p-value I got 0.458. 
+
+Exercise 4.
+Generally the NLL seems to produce narrow contours compared to the chi2 value.
